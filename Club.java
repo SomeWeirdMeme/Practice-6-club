@@ -27,12 +27,11 @@ public class Club
         return club.size();
     }
     
-    
     public void getPerson(int e){
         if(e >= 0 && e < club.size()){
             String member = club.get(e);
             System.out.println(member);
         }
     }
-        
+    
 }
